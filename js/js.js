@@ -20,7 +20,7 @@ $(function () {
         } else {
             $.ajax({
                 type: "GET",
-                url: "http://9s8hmi.natappfree.cc/add",
+                url: "http://jkdbsa.natappfree.cc/add",
                 data: formData,
                 dataType: "jsonp",
                 jsonp: "callback",
