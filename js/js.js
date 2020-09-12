@@ -20,7 +20,7 @@ $(function () {
         } else {
             $.ajax({
                 type: "GET",
-                url: "http://127.0.0.1:5000",
+                url: "http://y72w5c.natappfree.cc/add",
                 data: formData,
                 dataType: "jsonp",
                 jsonp: "callback",
