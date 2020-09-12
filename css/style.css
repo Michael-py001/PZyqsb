@@ -1,0 +1,67 @@
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin: 10px
+}
+
+p {
+    font-size: 16px;
+    padding: 0 10px;
+    padding: 0;
+    margin: 10px;
+}
+
+main section form {
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section form p {
+    margin: 10px 0;
+}
+
+main section form p input {
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    border: 1px solid rgb(148, 144, 144);
+    padding: 0 10px;
+    height: 40px;
+    width: 200px;
+}
+
+main section form p:nth-child(4) textarea {
+    width: 208px;
+    height: 80px;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#submit {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(74, 231, 60);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+#title {
+    text-align: center
+}
