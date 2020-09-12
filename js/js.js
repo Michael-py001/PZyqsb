@@ -7,11 +7,16 @@ $(function () {
         if (!/^\d{12}$/.test(id)) {
             $('#id').focus()
             alert("学号格式错误，请核对后填入")
+            return
+        } else if (pwd.length < 1) {
+            alert("请填写正确密码")
+            return
         } else if (!/^[0-9A-Za-z]{45,60}$/.test(key)) {
             console.log("不符合");
             $('#key').val("")
             $('#key').focus()
             alert("key格式错误，请核对后填入")
+            return
         } else {
             $.ajax({
                 type: "GET",
